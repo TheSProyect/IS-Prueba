@@ -1,8 +1,8 @@
 @startuml
 class Persona
-class Auto
+class Carro
 class Estudiante
 
-Auto -- Persona
+Carro -- Persona
 Persona <|-- Estudiante
 @enduml
